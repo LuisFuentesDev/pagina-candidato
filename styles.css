@@ -49,3 +49,21 @@
     color: #000000; /* Color del ícono */
     font-size: 35px; /* Tamaño del ícono */
 }
+
+body {
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+.container {
+    max-width: 100%; /* Establece un ancho máximo igual al ancho de la ventana gráfica */
+}
+
+.card-img-top {
+    max-width: 100%; /* Establece un ancho máximo igual al ancho de su contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+
+/* Aplica estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+    /* Agrega estilos adicionales para dispositivos móviles */
+}
