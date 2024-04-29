@@ -15,7 +15,7 @@
     <!-- Inline CSS -->
     <style>
         body {
-            overflow-x: hidden;
+            overflow-x: hidden; /* Bloquear desplazamiento horizontal */
         }
 
         /* Establece el tamaño máximo para las imágenes */
@@ -24,13 +24,6 @@
         .rounded-circle {
             max-height: 500px;
             object-fit: cover;
-        }
-
-        /* Ajusta el tamaño del texto en dispositivos móviles */
-        @media (max-width: 576px) {
-            .navbar-brand.text-white.ps-3:last-child {
-                display: none;
-            }
         }
     </style>
 </head>
@@ -44,7 +37,7 @@
                 <nav class="navbar navbar-expand-sm navbar bg-success">
                     <div class="container-fluid">
                         <a class="navbar-brand text-white ps-3">REYNIER CAMPOS</a>
-                        <a class="navbar-brand text-white ps-3 d-none d-sm-inline">CANDIDATO A CONSEJERO REGIONAL</a>
+                        <a class="navbar-brand text-white ps-3">CANDIDATO A CONSEJERO REGIONAL</a>
                         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                             aria-expanded="false" aria-label="Toggle navigation">
