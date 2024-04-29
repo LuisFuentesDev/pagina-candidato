@@ -17,12 +17,18 @@
     <style>
         body {
             overflow-x: hidden; /* Bloquear desplazamiento horizontal */
-            max-width: 100%; /* Ancho máximo igual al ancho de la ventana gráfica */
         }
 
-        /* Estilo para las imágenes de las tarjetas */
+        .container-fluid-mx-0 {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: auto;
+            margin-left: auto;
+            width: 100%; /* Ancho máximo igual al ancho de la ventana gráfica */
+        }
+
         .card-img-top {
-            height: 200px; /* Altura deseada */
+            height: 100%; /* Altura máxima igual al contenedor */
             object-fit: cover; /* Para que las imágenes se ajusten correctamente */
         }
     </style>
@@ -37,7 +43,7 @@
                 <nav class="navbar navbar-expand-sm navbar bg-success">
                     <div class="container-fluid">
                         <a class="navbar-brand text-white ps-3">REYNIER CAMPOS</a>
-                        <a class="navbar-brand text-white ps-3">CANDIDATO A CORE 1</a>
+                        <a class="navbar-brand text-white ps-3">CANDIDATO A CORE 2</a>
                         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -58,7 +64,7 @@
     </div>
 
     <!-- Contenido de la página de actividades -->
-    <div class="container-fluid mt-5">
+    <div class="container-fluid mt-5 px-0"> <!-- Añadido px-0 para evitar padding horizontal -->
         <h2 class="text-center mb-4">Actividades</h2>
         <div class="row">
             <!-- Actividad 1 -->
