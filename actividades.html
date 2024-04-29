@@ -20,8 +20,9 @@
         }
 
         .card-img-top {
-            height: 100%; /* Altura máxima igual al contenedor */
-            object-fit: cover; /* Para que las imágenes se ajusten correctamente */
+            height: 200px; /* Altura fija para todas las imágenes */
+            object-fit: cover; /* Escalar la imagen para llenar el contenedor manteniendo la proporción */
+            width: auto;
         }
     </style>
 </head>
@@ -56,7 +57,7 @@
     </div>
 
     <!-- Contenido de la página de actividades -->
-    <div class="container-fluid mt-5 px-0"> <!-- Añadido px-0 para evitar padding horizontal -->
+    <div class="container-fluid mt-5"> <!-- Añadido px-0 para evitar padding horizontal -->
         <h2 class="text-center mb-4">Actividades</h2>
         <div class="row">
             <!-- Actividad 1 -->
